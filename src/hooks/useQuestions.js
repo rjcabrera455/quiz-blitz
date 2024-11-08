@@ -1,9 +1,9 @@
 export function useQuestions() {
   function getQuestions(type, dispatch) {
-    fetch('http://localhost:9000/questions')
+    fetch('https://rjcabrera455.github.io/api/quiz-blitz/questions.json')
       .then((res) => res.json())
       .then((data) => {
-        dispatch({ type: type, payload: data });
+        dispatch({ type: type, payload: data.questions });
       });
   }
 
