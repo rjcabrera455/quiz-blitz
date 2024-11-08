@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "category": "Sports",
+      "question": "Who won the FIFA World Cup in 2018",
+      "options": ["Germany", "Brazil", "France", "Argentina"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "category": "Sports",
+      "question": "Which tennis player holds the record for the most Grand Slam singles titles (as of 2024)?",
+      "options": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Serena Williams"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "category": "Sports",
+      "question": "In what year did Michael Jordan retire from the NBA for the second time?",
+      "options": [1998, 2001, 2003, 2006],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "category": "Sports",
+      "question": "Which country is known for hosting the first ever Winter Olympics in 1924?",
+      "options": ["Norway", "Switzerland", "Austria", "France"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "category": "Sports",
+      "question": "Who holds the record for the most home runs in Major League Baseball history?",
+      "options": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Alex Rodriguez"],
+      "correctOption": 0,
+      "points": 10
+    },
+
+    {
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "George Washington",
+        "John Adams"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "category": "History",
+      "question": "In which year did the Titanic sink?",
+      "options": [1912, 1905, 1923, 1930],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "category": "History",
+      "question": "The Great Wall of China was primarily built to protect China from invasions by which group?",
+      "options": ["Mongols", "Huns", "Persians", "Japanese"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "category": "History",
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Jacqueline Cochran",
+        "Sally Ride"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "category": "History",
+      "question": "The ancient Egyptian queen Cleopatra was a member of which dynasty?",
+      "options": ["Ptolemaic", "Thutmose", "Ramesside", "Hellenistic"],
+      "correctOption": 0,
+      "points": 10
+    }
+  ]
+}
