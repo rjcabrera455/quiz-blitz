@@ -1,5 +1,7 @@
+import { useQuiz } from '../contexts/QuizContext';
 import Timer from './Timer';
-function Header({ status, secondsRemaining, dispatch }) {
+function Header() {
+  const { status } = useQuiz();
   return (
     <div
       className={`border-b pb-5 mb-5 ${
@@ -7,9 +9,7 @@ function Header({ status, secondsRemaining, dispatch }) {
       }`}
     >
       <h1 className="text-xl uppercase text-center">Quiz Blitz</h1>
-      {status === 'active' && (
-        <Timer secondsRemaining={secondsRemaining} dispatch={dispatch} />
-      )}
+      {status === 'active' && <Timer />}
     </div>
   );
 }

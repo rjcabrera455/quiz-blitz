@@ -1,7 +1,11 @@
+import { useQuiz } from '../contexts/QuizContext';
 import { useQuestions } from '../hooks/useQuestions';
 
-function Finish({ points, maxPossiblePoints, dispatch }) {
+function Finish() {
+  const { points, maxPossiblePoints, dispatch } = useQuiz();
+
   const percentage = (points / maxPossiblePoints) * 100;
+
   const { getQuestions } = useQuestions();
   function handleClick() {
     getQuestions('restart', dispatch);

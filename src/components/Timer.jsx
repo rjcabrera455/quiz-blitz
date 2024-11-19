@@ -1,8 +1,8 @@
-import { faClock } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
+import { useQuiz } from '../contexts/QuizContext';
 
-function Timer({ secondsRemaining, dispatch }) {
+function Timer() {
+  const { secondsRemaining, dispatch } = useQuiz();
   const mins = Math.floor(secondsRemaining / 60);
   const seconds = secondsRemaining % 60;
 

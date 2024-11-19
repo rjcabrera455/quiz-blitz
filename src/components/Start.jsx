@@ -1,6 +1,9 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
+import { useQuiz } from '../contexts/QuizContext';
 
-function Start({ categories, dispatch }) {
+function Start() {
+  const { categories, dispatch } = useQuiz();
+
   const [selectedCategory, setSelectedCategory] = useState('');
   function handleStart() {
     dispatch({ type: 'start', category: selectedCategory });
